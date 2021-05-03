@@ -12,7 +12,7 @@
    - **김지수** <[jisu3817](https://github.com/jisu3817)>
       - 블로그 : https://blog.naver.com/wltn5012
    - **류가희** <[rugaheedori](https://github.com/rugaheedori)>
-      - 블로그 : 
+      - 블로그 : https://blog.naver.com/rugaheedori
    - **민순기** <[soonki-98](https://github.com/soonki-98)>
       - 블로그 : https://blog.naver.com/alstnsrl100
    - **박현우** <[pho9902](https://github.com/pho9902)>
