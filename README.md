@@ -10,23 +10,23 @@
 ## 👨🏻‍💻 우아한 코더
 * 팀원 :
    - **김지수** <[jisu3817](https://github.com/jisu3817)>
-      - 블로그 : 
+      - 블로그 : https://blog.naver.com/wltn5012
    - **류가희** <[rugaheedori](https://github.com/rugaheedori)>
       - 블로그 : 
    - **민순기** <[soonki-98](https://github.com/soonki-98)>
-      - 블로그 : 
+      - 블로그 : https://blog.naver.com/alstnsrl100
    - **박현우** <[pho9902](https://github.com/pho9902)>
-      - 블로그 : 
+      - 블로그 : https://blog.naver.com/pho9902
    - **배범수** <[Bsfla](https://github.com/Bsfla)>
-      - 블로그 : 
+      - 블로그 : https://conaldofla123.tistory.com/
    - **심서현** <[seohyunsim](https://github.com/seohyunsim)>
-      - 블로그 : 
+      - 블로그 : https://blog.naver.com/ssh4563
    - **오창훈** <[ohchanghoon](https://github.com/ohchanghoon)>
       - 블로그 : https://blog.naver.com/dhckdgns3
    - **유준상** <[stupidJoon](https://github.com/stupidJoon)>
       - 블로그 : https://blog.naver.com/junsangyu3
    - **이석호** <[rrgks6221](https://github.com/rrgks6221)>
-      - 블로그 : 
+      - 블로그 : https://blog.naver.com/rrgks
 
 <br>
 
