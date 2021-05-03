@@ -5,7 +5,7 @@ function solution(s){
     if (p != null && y != null ){
         if (p.length != y.length)
             return false;
-    
+            
         else if (p.length == y.length)
             return true;
     }

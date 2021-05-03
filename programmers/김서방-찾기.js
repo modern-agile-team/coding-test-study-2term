@@ -1,5 +1,4 @@
 function solution(seoul) {
-    
     var answer = '';
     
     for(var i = 0; i<seoul.length; i++){
