@@ -1,9 +1,10 @@
-def solution(seoul):
-    answer = ''
-    for i in range(len(seoul)):
-        if seoul[i] == "Kim":
-            answer = "김서방은 %d에 있다"%i
-    return answer
-
-seoul = ["Jane","Kim"]
-print(solution(seoul))
+function solution(num) {
+    var answer =''
+    if(num%2 == 0){
+        answer = "Even";
+    }
+    else{
+        answer = "Odd";
+    }
+    return answer;
+}
