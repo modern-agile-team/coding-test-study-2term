@@ -4,6 +4,6 @@ function solution(a, b) {
 
     for (let i = Math.min(a, b); i <= Math.max(a, b); i++)
         cnt += i; 
-    
+        
     return cnt;
 }
