@@ -1,12 +1,10 @@
 function solution(s) {
-    
-    let arr = s.split("");
+     
     let answer;
     
-    arr.sort(function(a, b) {
-        if(a > b) return -1;
-    })
+    answer = s.split("");
+    answer.sort();
+    answer.reverse();
     
-    answer = arr.join('');
-    return answer;
+    return answer.join("");
 }
