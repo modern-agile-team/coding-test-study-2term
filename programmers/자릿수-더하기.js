@@ -1,4 +1,4 @@
-function solution(n)
+function solution(n) 
 {
     const num = String(n);
     let sum = 0;
