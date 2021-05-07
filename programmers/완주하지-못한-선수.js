@@ -9,8 +9,7 @@ function solution(part, comp) {
     
     for (let j = 0; j < comp.length; j++){
         drop[comp[j]] -= 1; 
-        if (drop[comp[j]] === 0)
-            delete drop[comp[j]]
+        if (drop[comp[j]] === 0) delete drop[comp[j]];
     }
 
     result = Object.keys(drop)
