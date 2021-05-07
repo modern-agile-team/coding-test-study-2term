@@ -46,5 +46,4 @@ function solution(part, comp) {
     })
     
     return Object.keys(drop).join("");
-    
 }*/
