@@ -1,4 +1,4 @@
-function solution(lottos, win_nums) {
+function solution(lottos, winNums) {
     
     let [zCnt, wCnt] = [0, 0];
     let [best, worst] = [0, 0];
@@ -7,7 +7,7 @@ function solution(lottos, win_nums) {
         if(lottos[i] === 0) zCnt += 1;
         
         for (let j = 0; j < 6; j++) {
-            if (lottos[i] === win_nums[j]) wCnt += 1;
+            if (lottos[i] === winNums[j]) wCnt += 1;
         }
     }
     
