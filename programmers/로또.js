@@ -18,4 +18,5 @@ function solution(lottos, win_nums) {
     
     if (wCnt === 0 && zCnt === 0) return [6, 6];
     return [best, worst];
+    
 }
