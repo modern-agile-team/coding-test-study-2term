@@ -6,4 +6,6 @@ function solution(s) {
     }
     else 
         return s.slice(Center,Center + 1);
+
+
 }
