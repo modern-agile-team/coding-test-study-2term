@@ -24,6 +24,7 @@ function solution(part, comp) {
 // 정답을 보고 문제를 푼 것 같은 느낌이 들어서 정상작동하는 프로그램은 주석처리 했습니다.
 // 그래도 forEach라는 문법에 대해 알 수 있어서 좋은 공부가 되었습니다.
 
+
 /*
 function solution(part, comp) {
     
