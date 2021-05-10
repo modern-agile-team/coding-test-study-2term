@@ -11,8 +11,6 @@ function solution(absolutes, signs) {
 
 // function solution(absolutes, signs) {
     
-//     const sum = absolutes.reduce((acc, val, i) => 
-//                                  {if(!signs[i]) val *= -1;
-//                                   return val + acc;} ,0);
+//     const sum = absolutes.reduce( (pre, val, i) => {if(!signs[i]) val *= -1; return val + pre;} ,0);
 //     return sum;
 // }
