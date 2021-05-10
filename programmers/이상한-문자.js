@@ -1,13 +1,13 @@
 function solution(s) {
 
     s = s.split(" ");
-    const sWrap = [...s];   
-    const len = sWrap.length;
-    //const sWrap = [...(s.split(" "))];  이것도 가능한것 같은데 어떤식으로 표현하는게 나을지 여쭤보고싶습니다.            
+    const sSpread = [...s];   
+    const len = sSpread.length;
+    //const sSpread = [...(s.split(" "))];  이것도 가능한것 같은데 어떤식으로 표현하는게 나을지 여쭤보고싶습니다.            
     const result = new Array; 
     for (let i = 0; i < len; i++) {
-        for(let j = 0; j < sWrap[i].length; j++) {
-            !(j % 2) ? result.push(sWrap[i][j].toUpperCase()) : result.push(sWrap[i][j].toLowerCase());
+        for(let j = 0; j < sSpread[i].length; j++) {
+            !(j % 2) ? result.push(sSpread[i][j].toUpperCase()) : result.push(sSpread[i][j].toLowerCase());
         } if (i < len - 1) result.push(" ");
     }    
     return result.join("");
@@ -18,14 +18,14 @@ function solution(s) {
 
 // function solution(s) {
 
-//     const sWrap = [...(s.split(" "))];
+//     const sSpread = [...(s.split(" "))];
 //     const result = new Array;
   
-//     for (let i in sWrap) {
-//         for (let j in sWrap[i]) {
-//             !(j % 2) ? result.push(sWrap[i][j].toUpperCase()) : result.push(sWrap[i][j].toLowerCase());
+//     for (let i in sSpread) {
+//         for (let j in sSpread[i]) {
+//             !(j % 2) ? result.push(sSpread[i][j].toUpperCase()) : result.push(sSpread[i][j].toLowerCase());
 //         }
-//         if(i < sWrap.length - 1) result.push(" ");
+//         if(i < sSpread.length - 1) result.push(" ");
 //     }
 //     return result.join("")
 // }  
