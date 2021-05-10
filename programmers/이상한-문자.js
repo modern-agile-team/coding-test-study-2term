@@ -8,7 +8,7 @@ function solution(s) {
     for (let i = 0; i < len; i++) {
         for(let j = 0; j < sWrap[i].length; j++) {
             !(j % 2) ? result.push(sWrap[i][j].toUpperCase()) : result.push(sWrap[i][j].toLowerCase());
-        } if (i < sWrap.length - 1) result.push(" ");
+        } if (i < len - 1) result.push(" ");
     }    
     return result.join("");
 }
