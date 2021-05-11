@@ -38,8 +38,7 @@ function solution(answers) {
             k++;
             if (k === 10) k = 0;
         }        
-    }
-    
+    }    
     for (let l = 0; l < 3; l++) {
         if (rank[l] === Math.max.apply(null, rank)) answerArr.push(l+1)
     }
