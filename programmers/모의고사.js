@@ -7,9 +7,9 @@ function solution(answers) {
    let thirdCnt = 0;
 
    for(let i = 0; i < answers.length; i++) {
-     if (numberOne[i%5] === answers[i]) firstCnt++;
-     if (numberTwo[i%8] === answers[i]) secondCnt++;
-     if (numberThree[i%10] === answers[i]) thirdCnt++; 
+     if (numberOne[i % 5] === answers[i]) firstCnt++;
+     if (numberTwo[i % 8] === answers[i]) secondCnt++;
+     if (numberThree[i % 10] === answers[i]) thirdCnt++; 
    }
 
    if ((firstCnt > secondCnt) && (firstCnt > thirdCnt))
