@@ -10,9 +10,7 @@ function solution(newID) {
             renewID += "a";
     }
     
-    if (renewID.length > 15) {                                      //done
-        renewID = renewID.slice(0,15);
-    }
+    if (renewID.length > 15) renewID = renewID.slice(0,15);         //done
     
     if (renewID[14] === ".") renewID = renewID.replace(/\.$/g, ''); //done
             
