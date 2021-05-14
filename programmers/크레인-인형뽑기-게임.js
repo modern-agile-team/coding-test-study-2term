@@ -1,9 +1,9 @@
 function solution(boards, moves) {
     const basket =[];
-    const indexmoves = moves.map((x) =>  (x - 1));
+    const indexMoves = moves.map((x) =>  (x - 1));
     let cnt = 0;
 
-    for (let move of indexmoves) {
+    for (let move of indexMoves) {
          for (let board of boards) {
              if (board[move] !== 0) {
                if (basket[basket.length - 1] === board[move]) {
