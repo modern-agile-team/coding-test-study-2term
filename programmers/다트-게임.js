@@ -1,20 +1,27 @@
-function solution(boards, moves) {
-    const basket =[];
-    const indexmoves = moves.map((x) =>  (x - 1));
-    let cnt = 0;
-
-    for (let move of indexmoves) {
-         for (let board of boards) {
-             if (board[move] !== 0) {
-               if (basket[basket.length - 1] === board[move]) {
-                     basket.pop();
-                     cnt += 2; 
-                  }
-               else basket.push(board[move]);
-               board[move] = 0;
-               break;
-             }
-         }
-     }
-    return cnt;
+function solution(dartResult) {
+    const answer = [];
+    let temp = 0;
+    let result = 0;
+    
+    for (let i = 0; i < dartResult.length; i++) {
+        if (dartResult[i] >= 0 && dartResult[i] <= 9) {
+              temp = parseInt(dartResult[i]);
+           if (dartResult[i] === '1' && dartResult[i + 1] === '0') {
+                temp = 10;
+                i++;
+           }
+        }
+        else if (dartResult[i] === 'S') answer.push(temp);
+        else if (dartResult[i] === 'D') answer.push(Math.pow(temp, 2));
+        else if (dartResult[i] === 'T') answer.push(Math.pow(temp, 3));
+        else if (dartResult[i] === '#') answer[answer.length-1] *= -1;
+        else if (dartResult[i] === '*') { 
+            answer[answer.length-1] *= 2;
+            answer[answer.length-2] *= 2;
+        }
+    }
+    for (let i = 0; i < answer.length; i++) {
+            result += answer[i];
+    }
+    return result;
 }
