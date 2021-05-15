@@ -18,10 +18,10 @@ function solution(dart) {
             answer.push(temp);
         }
         if(dart[i] === 'D') {
-            answer.push(Math.pow(temp, 2));
+            answer.push(temp ** 2);
         }
         if(dart[i] === 'T'){
-            answer.push(Math.pow(temp, 3));
+            answer.push(temp ** 3);
         }
         if(dart[i] == '#') {
            answer[answer.length - 1] *= -1;
