@@ -1,0 +1,13 @@
+function solution(s) {
+    const len = s.length;
+    if (len === 4 || len === 6) {
+        let ss = /\D/g.test(s);
+        if(ss === true)
+            return false;
+        
+        return true;
+    }
+    
+    return false;
+
+}
