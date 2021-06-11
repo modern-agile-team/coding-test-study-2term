@@ -1,7 +1,7 @@
 function solution(n, arr1, arr2) {
-    
-    let result = [];
     const output = [];
+    let result = [];
+    
     for (let i = 0; i < n; i++) {
         arr1[i] = arr1[i].toString(2);
         arr2[i] = arr2[i].toString(2);
