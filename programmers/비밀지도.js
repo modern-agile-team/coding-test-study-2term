@@ -1,4 +1,5 @@
 function solution(n, arr1, arr2) {
+    
     const output = [];
     let result = [];
     

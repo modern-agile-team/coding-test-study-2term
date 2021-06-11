@@ -5,7 +5,6 @@ function solution(numbers, hand) {
         7 : [2, 0], 8 : [2, 1], 9 : [2, 2],
         0 : [3, 1]
     }
-
     let [result, leftHand, rightHand] = [ "", [3, 0], [3, 2] ];
     
     function path(key, num, leftHand, rightHand, hand) {
