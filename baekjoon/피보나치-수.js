@@ -7,5 +7,5 @@ function f(n) {
   return dp[n];
 }
 
-const n = parseInt(fs.readFileSync("/dev/stdin").toString().trim());
+const n = parseInt(fs.readFileSync("/dev/stdin").toString().trim(), 10);
 console.log(f(n));
