@@ -5,6 +5,6 @@ function f(n) {
   return n * f(n - 1);
 }
 
-const n = parseInt(fs.readFileSync("/dev/stdin").toString().trim());
+const n = parseInt(fs.readFileSync("/dev/stdin").toString().trim(), 10);
 
 console.log(f(n));
