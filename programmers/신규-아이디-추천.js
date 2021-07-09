@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 function solution(id) {
     const lowerId = id.toLowerCase()
     let newId = lowerId.replace(/[^-_.a-z0-9]/g,'').replace(/\.{2,}/gm,'.').replace(/^\.|\.$/g,'')
@@ -15,6 +16,8 @@ function solution(id) {
     }
     return answer
 =======
+=======
+>>>>>>> dfb4193728bd5f6c04fd7e036ad2f9c430ea8188
 function solution(new_id) {
     new_id = new_id
         .toLowerCase()
@@ -35,5 +38,8 @@ function solution(new_id) {
      } 
    } 
    return new_id;
+<<<<<<< HEAD
+>>>>>>> dfb4193728bd5f6c04fd7e036ad2f9c430ea8188
+=======
 >>>>>>> dfb4193728bd5f6c04fd7e036ad2f9c430ea8188
 }
