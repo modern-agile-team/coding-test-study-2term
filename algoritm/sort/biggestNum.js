@@ -1,7 +1,18 @@
 function solution(numbers) {
-  const result = numbers
-    .map((number) => number.toString()) // 문자열로 치환
-    .sort((a, b) => b + a - (a + b)) // 두 문자열을 더한 값을 비교
-    .join("");
-  return parseInt(result) === 0 ? "0" : result; // '0000'은 '0'으로 return
+  let result = numbers.map((number) => number.toString());
+  bubbleSort(result);
+  result = result.filter((el) => el !== undefined).join("");
+
+  return parseInt(result) === 0 ? "0" : result;
+}
+
+function bubbleSort(numbers) {
+  const n = numbers.length;
+  for (let i = 0; i < n - 1; i++) {
+    for (let j = 0; j < n - i; j++) {
+      if (numbers[j + 1] + numbers[j] > numbers[j] + numbers[j + 1]) {
+        [numbers[j], numbers[j + 1]] = [numbers[j + 1], numbers[j]];
+      }
+    }
+  }
 }
