@@ -15,7 +15,7 @@ function combine(splitedNums, N) {
 function analysis(num) {
     if (num === 1 || num === 0) return false;
     if (num === 2) return true;
-    for (let i=2; i < Math.sqrt(num) + 1; i++) {
+    for (let i = 2; i < Math.sqrt(num) + 1; i++) {
         if (num % i === 0) return false;
     }
     return true;
