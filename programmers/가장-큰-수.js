@@ -8,7 +8,5 @@ function solution(numbers) {
             }
         }
     }
-    return numbers.join("");
+     return Number(numbers.join("")) ? numbers.join("") : "0";
 }
-const numbers = [3, 30, 34, 5, 9];
-console.log("결과",solution(numbers));
