@@ -1,15 +1,16 @@
 function solution(prog, speeds) {
-  let result = [];
-  let i = 0;
+  const result = [];
+  let term = 0;
   while (prog.length > 0) {
     prog = prog.map((el, index) => el + speeds[index]);
     if (prog[0] >= 100) {
       result.push([]);
-      i += 1;
+      term += 1;
     }
     while (prog[0] >= 100) {
-      result[i - 1].push(prog[0]);
+      result[term - 1].push(prog[0]);
       prog.shift();
+      speeds.shift();
     }
   }
   return result.map((el) => el.length);
