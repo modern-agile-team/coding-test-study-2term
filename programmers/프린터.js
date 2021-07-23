@@ -12,4 +12,4 @@ function solution(priorities, location) {
         location -= 1;
         if (location === -1) location = priorities.length - 1;
     }
-}
+
