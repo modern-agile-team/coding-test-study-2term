@@ -4,14 +4,14 @@ const readline = require("readline"),
     output: process.stdout,
   });
 
-let input = [];
+const input = [];
 
 rl.on("line", (line) => {
   input.push(line);
 }).on("close", () => {
   const num = input[0].split(" ").map((el) => parseInt(el));
   const [N, M] = [num[0], num[1]];
-  const men = (input = input.slice(1));
+  const men = input.slice(1);
   jobgut(N, M, men);
 });
 
